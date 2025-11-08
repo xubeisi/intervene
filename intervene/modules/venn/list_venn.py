@@ -3,7 +3,7 @@
 This code is adapted from: https://github.com/tctianchi/pyvenn
 '''
 from itertools import chain
-from collections import Iterable
+from collections.abc import Iterable
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib import colors
