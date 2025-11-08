@@ -162,7 +162,7 @@ def barplot(series, matrix, outfile, options, max_size=1):
     ax.tick_params(axis='y', which='major', labelsize=options.fontsize)
 
     # Grid lines.
-    ax.grid(b=False, which='major', axis='both', alpha=0.1)
+    ax.grid(visible=False, which='major', axis='both', alpha=0.1)
 
     # Tick marks for the x-axis. max(list_size)
     ax.set_xticks((max_size,1))
